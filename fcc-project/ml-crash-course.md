@@ -69,6 +69,6 @@ L2 loss is the square of the difference of the real y-value and the predicted y-
 
 Binary Cross-Entropy Loss
 
-loss = -1/N * sum(y<sub>real</sub> * log(y<sub>predicted>) + (1 - y<sub>real</sub>) * log((1 - y<sub>predicted</sub>)))
+loss = -1/N * sum(y<sub>real</sub> * log(y<sub>predicted) + (1 - y<sub>real</sub>) * log((1 - y<sub>predicted</sub>)))
 
 You just need to know that loss decreases as the performance gets better.
