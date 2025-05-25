@@ -16,6 +16,16 @@
 
     The KNN algorithm relies on the idea that similar data points are likely to have similar labels. By finding the K nearest neighbors to a new data point, the algorithm can make an informed prediction about its label.
 
+    We will output a classification report on our predictions. An example of a report for our dataset will look as follows
+
+||precision|recall|f1-score|support|
+|-|-|-|-|-|
+|0|0.76|0.74|0.75|1359|
+|1|0.86|0.87|0.86|2445|
+|accuracy|||0.82|3804|
+|macro avg|0.81|0.80|0.81|3804|
+|weighted avg|0.82|0.82|0.82|3804|
+
 ## Naive Bayes
 
     The Naive Bayes algorithm uses a mathematical formula to classify data points into different categories. It makes a simplifying assumption that the features of the data points (like height, weight, etc.) are independent of each other, meaning that knowing one feature doesn't give you any information about another feature. This algorithm works by first assuming that eatures are independent of each other and then calculating the likelihood of each feature given the target variable. These likelihoods are multiplied together to get a final answer and from that, a category with the highest likelihood is chosen
