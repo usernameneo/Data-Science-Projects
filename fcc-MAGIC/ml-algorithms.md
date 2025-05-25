@@ -32,7 +32,9 @@ Looking at the output there are a few things we can gleem about the performance 
 
 > *Recall* shows the ratio of **true positives** (relevant instances) to the total number of **actual positives** (all relevant instances).
 
-![Wikipedia Image illustrating Precision and Recall](image.png)
+Finally, the f1-score is a representative value of both the precision and recall ratios.
+
+<img src="https://raw.githubusercontent.com/usernameneo/Data-Science-Projects/main/fcc-MAGIC/image.png" alt="Wikipedia Image illustrating Precision and Recall" style="display: block; margin: 0 auto;">
 
 ## Naive Bayes
 
