@@ -42,11 +42,28 @@ The Naive Bayes algorithm uses a mathematical formula to classify data points in
 
 Naive Bayes uses a simple formula to classify data points based on their features, assuming that each feature is independent of the others.
 
+> P(C<sub>k</sub> | X) = P(X | C<sub>k</sub>) * P(C<sub>k</sub>) / P(X)
+
+The formula tests the probability of a *feature vector*, X falling into a subset of categories, C<sub>k</sub>, and represented as P(C<sub>k</sub> | X),. 
+The formula has four parts, the posterior, likelihood, prior and the evidence:
+- **The posterior**, P(C<sub>k</sub> | X): *The probability of having of feature vector, X, falling into the specified number, k, of categories, C.*?
+
+- **The likelihood**, P(X | C<sub>k</sub>): 
+
+- **The prior**, P(C<sub>k</sub>):
+
+- **The evidence**, P(X): 
+
+
 ## Logistic Regression
 
 Logistic regression models the probability of a binary outcome based on one or more predictors. This algorithm uses one or more predictors (e.g., age, income) to make a prediction, and then maps these predictors to a probability between 0 and 1 using a logistic function. This probability is then used to predict the likelihood of a binary outcome.
 
 Logistic regression uses a mathematical formula to predict the likelihood of a binary outcome based on one or more predictors.
+
+*Sigmoid function?*
+
+If we have a single X, then we'll have a **simple log reg.** If we have multiple, we'll have a **multiple log reg.**
 
 ## Support Vector Machine
 
