@@ -1,0 +1,15 @@
+📦 Dataset Title:
+Shopping Trends and Customer Behaviour Dataset
+
+📝 Dataset Description:
+This dataset provides a detailed snapshot of online shopping behavior and consumer trends. It contains synthetic yet realistic customer profiles with various features like age, gender, purchase categories, payment preferences, and engagement with promotional offers.
+
+The dataset is ideal for exploratory data analysis, customer segmentation, behavioral modeling, and recommendation systems. It can also be used for supervised learning tasks such as purchase prediction or churn analysis.
+
+src
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("sahilislam007/shopping-trends-and-customer-behaviour-dataset")
+
+print("Path to dataset files:", path)
