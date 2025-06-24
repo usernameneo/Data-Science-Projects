@@ -33,6 +33,9 @@ exploratory-data-analysis/
 │   │   └── dataset.csv
 │   ├── notebooks/
 │   │   └── eda-analysis.ipynb
+│   ├── scripts/
+│   │   └── eda-analysis.py
+│   └── data_dictionary.md
 │   └── README.md
 └── README.md (this file)
 ```
